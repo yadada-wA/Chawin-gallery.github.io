@@ -12,7 +12,6 @@ const srcArray = [
                     '/assets/pic/IMG_0697.PNG'
                 ];
 
-
 // btn.addEventListener
 // ('click', () => {
 
