@@ -3,13 +3,13 @@ const btn = document.getElementById('bth');
 
 
 const srcArray = [
-                    'blob/main/assets/pic/IMG_0691.PNG',
-                    'blob/main/assets/pic/IMG_0692.PNG',
-                    'blob/main/assets/pic/IMG_0693.PNG',
-                    'blob/main/assets/pic/IMG_0694.PNG',
-                    'blob/main/assets/pic/IMG_0695.PNG',
-                    'blob/main/assets/pic/IMG_0696.PNG',
-                    'blob/main/assets/pic/IMG_0697.PNG'
+                    '/blob/main/assets/pic/IMG_0691.PNG',
+                    '/blob/main/assets/pic/IMG_0692.PNG',
+                    '/blob/main/assets/pic/IMG_0693.PNG',
+                    '/blob/main/assets/pic/IMG_0694.PNG',
+                    '/blob/main/assets/pic/IMG_0695.PNG',
+                    '/blob/main/assets/pic/IMG_0696.PNG',
+                    '/blob/main/assets/pic/IMG_0697.PNG'
                 ];
 
 
