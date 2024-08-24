@@ -3,13 +3,13 @@ const btn = document.getElementById('bth');
 
 
 const srcArray = [
-                    url(assets/pic/IMG_0691.PNG),
-                    url(assets/pic/IMG_0692.PNG),
-                    url(assets/pic/IMG_0693.PNG),
-                    url(assets/pic/IMG_0694.PNG),
-                    url(assets/pic/IMG_0695.PNG),
-                    url(assets/pic/IMG_0696.PNG),
-                    url(assets/pic/IMG_0697.PNG)
+                    url(/assets/pic/IMG_0691.PNG),
+                    url(/assets/pic/IMG_0692.PNG),
+                    url(/assets/pic/IMG_0693.PNG),
+                    url(/assets/pic/IMG_0694.PNG),
+                    url(/assets/pic/IMG_0695.PNG),
+                    url(/assets/pic/IMG_0696.PNG),
+                    url(/assets/pic/IMG_0697.PNG)
                 ];
 
 
