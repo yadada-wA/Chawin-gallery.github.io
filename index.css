@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Mitr";
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/gif/heart.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 7vh;
+    width: 358px;
+    height: 780px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid #B098CF;
+    filter: drop-shadow(0 0 20px #B098CF);
+}
+
+.btn {
+    background-color: #DFCDB7;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    border-radius: 0.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+#Paint {
+    background-color: rgba(248, 249, 235, 1);
+    width: 25vh;
+    height: 100%;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+#loader {
+    border: 8px solid #f3f3f3;
+    position: sticky;
+    border-radius: 100%;
+    border-top: 8px solid blue;
+    border-right: 8px solid green;
+    border-bottom: 8px solid red;
+    border-left: 8px solid pink;
+    width: 48px;
+    height: 48px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    z-index: 1;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
