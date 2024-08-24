@@ -1,5 +1,4 @@
 const imgEl = document.getElementById('Paint');
-const loader = document.getElementById('loader');
 const btn = document.getElementById('bth');
 
 
@@ -14,12 +13,21 @@ const srcArray = [
                 ];
 
 
-btn.addEventListener
-('click', () => {
+// btn.addEventListener
+// ('click', () => {
 
-        { randomImg(); function randomImg() 
-        {   const randomIndex = Math.floor(Math.random()*srcArray.length);
-            imgEl.src = srcArray[randomIndex];}}
+//         { randomImg(); function randomImg() 
+//         {   const randomIndex = Math.floor(Math.random()*srcArray.length);
+//             imgEl.src = srcArray[randomIndex];}}
    
+// });
+
+function randomImg() {
+  const randomIndex = Math.floor(Math.random() * srcArray.length);
+  imgEl.src = srcArray[randomIndex];
+}
+
+btn.addEventListener('click', () => {
+  randomImg();
 });
 
