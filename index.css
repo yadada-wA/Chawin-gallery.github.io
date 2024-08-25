@@ -18,24 +18,24 @@ body {
     margin-left: 5vh;
     margin-right: 5vh;
     margin-top: 7vh;
-    width: 358px;
-    height: 780px;
+    width: 22.375rem;
+    height: 48.75rem;
     background-color: #fff;
-    border-radius: 30px;
-    border: 2px solid #B098CF;
+    border-radius: 1.875rem;
+    border: 0.1250rem solid #B098CF;
     filter: drop-shadow(0 0 20px #B098CF);
 }
 
 .btn {
     background-color: #DFCDB7;
     text-align: center;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 300;
     border-radius: 0.5rem;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 46px;
-    padding-right: 46px;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+    padding-left: 2.875rem;
+    padding-right: 2.875rem;
 }
 
 #Paint {
