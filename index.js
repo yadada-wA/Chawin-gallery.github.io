@@ -23,7 +23,7 @@ preload(
 
 function randomImg() {
   const randomIndex = Math.floor(Math.random() * srcArray.length);
-  imgEl.src = srcArray[randomIndex];
+  imgEl.src = srcArray[randomIndex].scr;
 }
 
 btn.addEventListener('click', () => {
