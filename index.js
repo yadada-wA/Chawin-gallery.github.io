@@ -10,22 +10,13 @@ let srcArray = [    'assets/pic/IMG_0691.PNG',
                     'assets/pic/IMG_0696.PNG',
                     'assets/pic/IMG_0697.PNG'];
 
-//function preload() {
-//  for (var i=0; i< arguments.length; i++{
-//   srcArray[i] = new Image();
-//   srcArray[i] = preload.argument[i];
-//  }
-//}
+let images = [];
+srcArray.forEach((src) => {
+    const img = new Image();
+    img.src = src; 
+    images.push(img);
+});
 
-//preload( 
-//                   'assets/pic/IMG_0691.PNG',
-//                    'assets/pic/IMG_0692.PNG',
-//                    'assets/pic/IMG_0693.PNG',
-//                    'assets/pic/IMG_0694.PNG',
-//                    'assets/pic/IMG_0695.PNG',
-//                    'assets/pic/IMG_0696.PNG',
-//                    'assets/pic/IMG_0697.PNG'
-//)
 
 function randomImg() {
   const randomIndex = Math.floor(Math.random() * srcArray.length);
