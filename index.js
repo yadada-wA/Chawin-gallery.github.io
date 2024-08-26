@@ -5,9 +5,9 @@ const btn = document.getElementById('bth');
 let srcArray = [];
 
 function preload() {
-  for (var i =0; i< arguments.length; i++){
-       srcArray[i] = new Image();
-       srcArray[i].src = preload.argument[i];
+  for (var i=0; i< arguments.length; i++{
+    srcArray[i] = new Image();
+    srcArray[i] = preload.argument[i];
   }
 }
 
@@ -23,7 +23,7 @@ preload(
 
 function randomImg() {
   const randomIndex = Math.floor(Math.random() * srcArray.length);
-  imgEl.src = srcArray[randomIndex].scr;
+  imgEl.src = srcArray[randomIndex].src;
 }
 
 btn.addEventListener('click', () => {
