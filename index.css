@@ -15,6 +15,7 @@ body {
 }
 
 .page {
+    padding: auto;
     margin-left: 5vh;
     margin-right: 5vh;
     margin-top: 7vh;
