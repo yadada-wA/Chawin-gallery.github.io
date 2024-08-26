@@ -19,7 +19,7 @@ body {
     margin-right: 5vh;
     margin-top: 7vh;
     width: clamp(22.375rem, 22.375rem, 22.375rem);   
-    height: clamp(48.75rem, 48.75rem, 48.75rem);
+    height: clamp(48.75rem, 1.0625rem + 3.125vw, 56rem);
     background-color: #fff;
     border-radius: 1.875rem;
     border: 0.125rem solid #B098CF;
