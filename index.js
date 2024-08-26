@@ -12,6 +12,15 @@ const srcArray = [
                     'assets/pic/IMG_0697.PNG'
                 ];
 
+function randomImg() {
+  const randomIndex = Math.floor(Math.random() * srcArray.length);
+  imgEl.src = srcArray[randomIndex];
+}
+
+btn.addEventListener('click', () => {
+  randomImg();
+});
+
 function preload() {
   for (var i =0; i< arguments.length; i++){
        srcArray[i] = new Image();
@@ -28,13 +37,3 @@ preload(
                     'assets/pic/IMG_0696.PNG',
                     'assets/pic/IMG_0697.PNG'
 )
-
-function randomImg() {
-  const randomIndex = Math.floor(Math.random() * srcArray.length);
-  imgEl.src = srcArray[randomIndex];
-}
-
-btn.addEventListener('click', () => {
-  randomImg();
-});
-
